@@ -1,0 +1,43 @@
+body, html{
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background: linear-gradient(rgba(62, 81, 81, .9), rgba(222, 203, 164, .7)), url('../img/fondo.jpg');
+	background-size: cover;
+	background-position: center;
+	color: white;
+}
+
+.titulo{
+	color: #f0ad4e;
+}
+
+.logo{
+	height: 110px;
+	width: 270px;
+	margin-top: 20px;
+}
+
+.logo2{
+	height: 360px;
+	align-items: center;
+}
+
+.descripcion{
+	letter-spacing: 2px;
+	font-family: sans-serif;
+}
+
+.form-control{
+	background: transparent !important;
+	color: black;
+}
+
+a .fa-brands{
+	color: white;
+	font-size: 30px;
+	margin: 0 10px;
+}
